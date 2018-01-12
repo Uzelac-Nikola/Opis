@@ -1,0 +1,11 @@
+# Kviz opste kulture
+
+Kviz bi se sastojao od  20 pitanja iz opste kulture. Pitanja bi bila iz oblasti informatike, geografije, biologije, istorije, knjizevnosti, hemije, sporta, poznate licnosti, filma i muzike. 
+Na pocetku bi bila uvodna stranica na kojoj bi pisalo "kviz opste kulture" i dugme "Pokreni kviz", kad se klikne na dugme, ispod toga bi bio brojac koji bi otkucavao sekunde do pocetka kviza(od 30 ka 0). Svaka stranica bi imala jedno pitanje sa 4 ponudjena odgovora(4 radio button-a) i mogucnost da se obelezi samo jedan radio button. Jedan ponudjeni odgovor bi bio tacan a druga tri ne. Za svaki tacan odogovor bi se se dobijalo po 10 poena, za netacan odgovor -5, za neobelezen radio button ne bi se dobijali i gubili poeni. Svako pitanje(znaci svaka stranica sa pitanjem) bi imao tajmer od 10 sekundi da se odgovori na to pitanje. Ako takmicar ne odgovori ni na jedno od ponudjenih odgovora i istekne 10 sekundi za odgovor automatski bi se preslo na sledece pitanje. Na kraju kad se zavrsi sa pitanjima otvorila bi se stranica sa svim pitanjima na kojoj bi se videlo na koja pitanja je takmicar odgovorio tacno, netacno, na koja nije odgovorio, tabela sa poenima, vreme koje mu je trebalo da resi kviz i jedno prazno polje da takmicar upise svoje ime. Predzadnja stranica bi ispisivala rezultate svih takmicara koji su do tada radili kviz i njihovo vreme sa osvojenim poenima. Statistika bi bila uradjena po principu ko ima bolje prolazno vreme i vise poena taj bi bio prvi, ako bi se slucajno zadesilo da dva takmicara imaju isto vreme onda bi se gledalo ko ima vise poena i obrnuto. U donjem desnom uglu treba da bude jedno dugme koje ce voditi na pocetak 
+
+# Metode
+
+timerEnter - Tajmer koji ce da odbrojava vreme do pocetka kviza(30 sekundi)
+timerQuiz - Tajmer koji ce da odbrojava vreme potrebno da se odgovori na pitanje(10 sekundi)  
+questions - Forma sa listom pitanja, tacnim odgovorom i 3 netacna odgovora
+results - Tabela u obliku forme koja ce prikazivati rezultate takmicara(polja: ime, broj osvojenih bodova, vreme)
